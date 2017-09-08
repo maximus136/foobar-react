@@ -4,7 +4,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import TestUtils from 'react-addons-test-utils';
 import { mount } from 'enzyme';
-import {Footer} from '../footer';
+import Footer from '../Footer';
 
 describe('Footer', () => {
   let footer;
