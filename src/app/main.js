@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
-import {Header} from './header';
+import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
 import {Title} from './title';
 import {Techs} from './techs/techs';
-import {Footer} from './footer';
 
 const styles = {
   container: {
@@ -20,7 +20,7 @@ const styles = {
 export class Main extends Component {
   render() {
     return (
-      <div style={styles.container}>
+      <div style={styles.container} className="wrapper">
         <Header/>
         <main style={styles.main}>
           <Title/>
