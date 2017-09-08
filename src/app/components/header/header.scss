@@ -1,5 +1,21 @@
+@import '../../styles/config.scss';
 .wrapper {
     header {
         display: flex;
+        background: $dark-grey;
+        padding: 40px 45px;
+        padding-bottom: 0;
+    }
+    .navLink {
+        font-size: $font-small;
+        color: $color-white !important; /*override bootstrap 4 style*/
+        border-bottom: 2px solid transparent;
+        margin-right: 55px;
+        padding-bottom: 2px;
+        cursor: pointer;
+
+        &.active {
+            border-bottom: 2px solid $color-green;
+        }
     }
 }

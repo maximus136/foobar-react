@@ -1,0 +1,15 @@
+@import '../../styles/config.scss';
+.hero-container {
+    background: $dark-grey;
+    padding: 90px 0;
+    color: $color-white;
+    .title {
+        font-size: $font-xxl;
+        margin: 0 0 10px 0;
+    }
+    .subTitle {
+        font-size: $font-xxs;
+        margin: 0 0 40px 0;
+        display: block;
+    }
+}
