@@ -13,8 +13,9 @@
         margin-right: 55px;
         padding-bottom: 2px;
         cursor: pointer;
+        font-family: 'Montserrat-Bold';
 
-        &.active {
+        &.active, &:hover {
             border-bottom: 2px solid $color-green;
         }
     }
