@@ -2,31 +2,16 @@ import React, {Component} from 'react';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
 import Journies from './components/journies/Journies';
-import {Title} from './title';
-import {Techs} from './techs/techs';
-
-const styles = {
-  container: {
-    display: 'flex',
-    flexDirection: 'column',
-    minHeight: '100%'
-  },
-  main: {
-    flex: 1,
-    display: 'flex',
-    flexDirection: 'column'
-  }
-};
+import Hero from './components/hero/Hero';
 
 export class Main extends Component {
   render() {
     return (
-      <div style={styles.container} className="wrapper">
-        <Header/>
-        <Journies/>
-        <main style={styles.main}>
-          <Title/>
-          <Techs/>
+      <div className="wrapper d-flex flex-column">
+        <Header />
+        <main>
+          <Hero title="HI, This is Hackathon" subTitle="We know you have got talent and we want you to show it!" buttonValue="click here"/>
+          <Journies/>
         </main>
         <Footer/>
       </div>

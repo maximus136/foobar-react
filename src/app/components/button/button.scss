@@ -1,0 +1,25 @@
+@import '../../styles/config.scss';
+.btn-container {
+    height: auto;
+    .btn {
+        font-size: 16px;
+        background-color: $color-green;
+        border-radius: 15px;
+        border-color: $color-green;
+        text-align: center;
+        padding: 5px 10px;
+        cursor: pointer;
+        outline: none;
+        min-width: 130px;
+    }
+    .regular-size {
+        font-size: $font-small;
+    }
+    .btn-empty {
+        background-color: transparent;
+        color: $color-green;;
+    }
+    .upperCase {
+        text-transform: uppercase;
+    }
+}
