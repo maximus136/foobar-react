@@ -7,5 +7,14 @@
     flex-direction: column;
     padding-left: 10px;
     font-family: Montserrat-Regular;
+    color: $color-grey;
+
+    .emp-name {
+      font-size: $font-medium;
+    }
+
+    .emp-des {
+      font-size: $font-xs;
+    }
   }
 }

@@ -39,6 +39,7 @@
     "gulp-sass": "^3.1.0",
     "gulp-util": "^3.0.8",
     "html-webpack-plugin": "^2.28.0",
+    "ignore-styles": "^5.0.1",
     "image-webpack-loader": "^3.4.2",
     "jasmine": "^2.5.3",
     "jquery": "^3.2.1",

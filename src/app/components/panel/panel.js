@@ -1,6 +1,7 @@
 import React from 'react';
 import './panel.scss';
 import EmpCard from '../EmpCard/EmpCard';
+import Button from '../button/Button';
 
 const {array} = React.PropTypes;
 
@@ -21,11 +22,14 @@ class Panel extends React.Component {
             ))}
           </div>
         </div>
-        <div className="panel-more-info">
+        <div className="panel-more-info d-flex align-items-center flex-column">
           <div className="description">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim quam consectetur quibusdam magni minus aut modi aliquid.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim quam consectetur quibusdam magni minus aut modi aliquid.
+          
           </div>
-        <div className="more-info"></div>
+          <div className="more-info">
+            <Button classNames="btn-filled upperCase" value="Click More" />
+          </div>
 
         </div> 
       </div>

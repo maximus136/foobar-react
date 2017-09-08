@@ -13,7 +13,7 @@ class Carousel extends React.Component {
     };
     const images = ['app/assets/carousel1.svg', 'app/assets/carousel2.svg', 'app/assets/carousel3.svg', 'app/assets/carousel1.svg', 'app/assets/carousel2.svg', 'app/assets/carousel3.svg', 'app/assets/carousel1.svg', 'app/assets/carousel2.svg', 'app/assets/carousel3.svg'];
     return (
-      <div className="container">
+      <div className="container carousel-wrapper">
        <Slider {...settings}>
         {
          images.map((image, index) => (

@@ -4,16 +4,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import TestUtils from 'react-addons-test-utils';
 import { mount } from 'enzyme';
-import EmpCard from '../EmpCard';
+import Carousel from '../Carousel';
 import 'ignore-styles';
 
-describe('EmpCard', () => {
-  let empCard;
+
+describe('Carousel', () => {
+  let carousel;
 
   beforeEach(() => {
-    empCard = mount(<EmpCard/>);
+    carousel = mount(<Carousel/>);
   });
   it('should render wrapper', () => {
-    expect(empCard.find('emp-card').length > 0).toEqual(true);
+    expect(carousel.find('carousel-wrapper').length > 0).toEqual(true);
   });
 });

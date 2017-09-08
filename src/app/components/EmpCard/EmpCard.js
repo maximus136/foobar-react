@@ -4,7 +4,7 @@ const {string} = React.PropTypes;
 import './EmpCard.scss';
 const EmpCard = props => {
   return (
-    <div className="judges col-lg-3 col-md-6 col-sm-12 text-cente">
+    <div className="emp-card judges col-lg-3 col-md-6 col-sm-12 text-cente">
       <img className="judge-profile img-responsive" src={props.imgSrc}/>
       <div className="judge-detail">
         <span className="emp-name">
