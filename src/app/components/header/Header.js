@@ -12,10 +12,10 @@ class Header extends React.Component {
                     </a>
                 </div>
                 <div className="navigation">
-                    <a className="navLink active">HOME</a>
-                    <a className="navLink">ABOUT US</a>
-                    <a className="navLink">ELEMENTS</a>
-                    <a className="navLink">FAQ</a>
+                    <a href="/" className="navLink active">HOME</a>
+                    <a href="/about" className="navLink">ABOUT US</a>
+                    <a href="/elements" className="navLink">ELEMENTS</a>
+                    <a href="/faq" className="navLink">FAQ</a>
                     <Button classNames="regular-size btn-empty" value="Sign Up"/>
                 </div>
             </header>

@@ -11,24 +11,19 @@ class Carousel extends React.Component {
       slidesToShow: 3,
       slidesToScroll: 3
     };
+    const images = ['app/assets/carousel1.svg', 'app/assets/carousel2.svg', 'app/assets/carousel3.svg', 'app/assets/carousel1.svg', 'app/assets/carousel2.svg', 'app/assets/carousel3.svg', 'app/assets/carousel1.svg', 'app/assets/carousel2.svg', 'app/assets/carousel3.svg'];
     return (
-     <div className='container'>
-      <Slider {...settings}>
-        <div><Card/></div>
-        <div><Card/></div>
-        <div><Card/></div>
-        <div><Card/></div>
-        <div><Card/></div>
-        <div><Card/></div>
-        <div><Card/></div>
-        <div><Card/></div>
-        <div><Card/></div>
-        <div><Card/></div>
-        <div><Card/></div>
-        <div><Card/></div>
-      </Slider>
-    </div>
-    );
+      <div className="container">
+       <Slider {...settings}>
+        {
+         images.map((image, index) => (
+          <div key={index}><Card image={image}/></div>
+        ))
+        }
+         
+       </Slider>
+     </div>
+     );
   }
 }
 

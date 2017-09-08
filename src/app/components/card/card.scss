@@ -1,22 +1,29 @@
+@import '../../styles/config.scss';
+
 .card-container{
     width: 360px;
     height: 370px;
     border-radius: 5px;
-    background-color: #ffffff;
+    background-color: $color-white;
     box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2);
      .card-image{
          padding-top: 45px;
          padding-bottom: 50px;
          padding-left: 130px;
-         background-color: #2effb5;;
-     }
+
+            img {
+                border-radius: 50%;
+                height: 80px;
+                width: 57px;
+            }
+         }
      .card-title{
         width: 278px;
         height: 29px;
         font-size: 24px;
         letter-spacing: 3px;
         text-align: left;
-        color: #757575;
+        color: $color-grey;
         margin-left: 40px;
         font-weight: 400px;
     }
@@ -28,7 +35,7 @@
         line-height: 1.57;
         letter-spacing: 1.8px;
         text-align: left;
-        color: #757575;
+        color: $color-grey;
         margin-left: 40px;
     }
 }

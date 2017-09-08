@@ -1,10 +1,10 @@
 import React from 'react';
 import './card.scss';
 
-const Card = (props) => (
+const Card = props => (
     <div className="card-container">
       <div className="card-image">
-       <img src="app/assets/carousel1.svg" width="100px"/>
+       <img src={props.image}/>
       </div>
       <div className="card-title">
         Lorem ipsum dolor
@@ -13,7 +13,6 @@ const Card = (props) => (
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim quam consectetur quibusdam magni minus aut modi aliquid.
       </div>
 
-        
     </div>
   );
 
