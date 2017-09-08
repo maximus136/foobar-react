@@ -1,0 +1,11 @@
+@import '../../styles/config.scss';
+.judges {
+  display: flex;
+
+  .judge-detail {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    font-family: Montserrat-Regular;
+  }
+}

@@ -3,23 +3,33 @@
 
 .panel {
     .description{
-        font-family: Montserrat;
         font-size: $font-xs;
         font-weight: 300;
         letter-spacing: 1.8px;
         text-align: left;
         color: $color-grey;
+        font-family: Montserrat-Regular;        
     }
     .panel-title{
-        font-family: Montserrat;
         font-size: $font-xl;
         font-weight: 600;
         letter-spacing: 4px;
         color:  $color-grey;
+        padding-top: 56px;
+        font-family: Montserrat-Bold;
     }
     .panel-more-info{
         border-top: solid 1px $light-grey;
-        
+        margin: 0 40px;
+        padding-top:52px;
+        font-family: Montserrat;
+
+        .more-info{
+            padding-top: 36px;            
+        }
+    }
+    .judge-list {
+        padding: 40px;
     }
 
 }
