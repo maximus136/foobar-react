@@ -29,6 +29,28 @@ module.exports = function (config) {
           {
             test: /\.json$/,
             loader: 'json-loader'
+          },
+          {
+            test: /\.(css|scss)$/,
+            loaders: [
+              'style-loader',
+              'css-loader',
+              'sass-loader'
+            ]
+          },
+          {
+            test: /\.(jpe?g|png|gif|svg)$/i,
+            loaders: [
+              'file-loader?hash=sha512&digest=hex&name=[hash].[ext]',
+              'image-webpack-loader?bypassOnDebug&optimizationLevel=7&interlaced=false'
+            ]
+          },
+          {
+            test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/,
+            loader: 'url-loader',
+            options: {
+              limit: 10000
+            }
           }
         ]
       },

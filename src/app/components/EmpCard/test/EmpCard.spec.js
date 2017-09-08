@@ -5,7 +5,6 @@ import ReactDOM from 'react-dom';
 import TestUtils from 'react-addons-test-utils';
 import { mount } from 'enzyme';
 import EmpCard from '../EmpCard';
-import 'ignore-styles';
 
 describe('EmpCard', () => {
   let empCard;
@@ -14,6 +13,6 @@ describe('EmpCard', () => {
     empCard = mount(<EmpCard/>);
   });
   it('should render wrapper', () => {
-    expect(empCard.find('emp-card').length > 0).toEqual(true);
+    expect(empCard.find('.emp-card').length > 0).toEqual(true);
   });
 });

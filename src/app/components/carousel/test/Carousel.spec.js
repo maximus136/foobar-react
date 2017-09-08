@@ -5,7 +5,6 @@ import ReactDOM from 'react-dom';
 import TestUtils from 'react-addons-test-utils';
 import { mount } from 'enzyme';
 import Carousel from '../Carousel';
-import 'ignore-styles';
 
 
 describe('Carousel', () => {
@@ -15,6 +14,6 @@ describe('Carousel', () => {
     carousel = mount(<Carousel/>);
   });
   it('should render wrapper', () => {
-    expect(carousel.find('carousel-wrapper').length > 0).toEqual(true);
+    expect(carousel.find('.carousel-wrapper').length > 0).toEqual(true);
   });
 });
