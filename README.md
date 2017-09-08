@@ -12,3 +12,7 @@ Hackathon solution in React. Presented by FooBar!
 - `npm run test:auto` to launch your unit tests with Karma in watch mode
 
 ### Added besic test cases for some of the components using Karma and Enzyme.
+
+### For common colors, fonts, breakpoints, and font-family, refer to respective style files in styles folder.
+
+### In-built es-linting enabled! 
