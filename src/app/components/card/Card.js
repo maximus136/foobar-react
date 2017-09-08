@@ -4,7 +4,7 @@ import './card.scss';
 const Card = (props) => (
     <div className="card-container">
       <div className="card-image">
-       <img src="http://placekitten.com/g/400/200" width="100px"/>
+       <img src="app/assets/carousel1.svg" width="100px"/>
       </div>
       <div className="card-title">
         Lorem ipsum dolor
