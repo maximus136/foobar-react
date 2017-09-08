@@ -1,2 +1,11 @@
 @import '../../../../node_modules/slick-carousel/slick/slick.css';
 @import '../../../../node_modules/slick-carousel/slick/slick-theme.css';
+
+
+.slick-next:before{
+   background-image: url("/app/assets/arrow-right.svg");
+}
+
+.slick-prev:before{
+    background-image: url("/app/assets/arrow-right.svg");
+}

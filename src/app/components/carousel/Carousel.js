@@ -20,6 +20,12 @@ class Carousel extends React.Component {
         <div><Card/></div>
         <div><Card/></div>
         <div><Card/></div>
+        <div><Card/></div>
+        <div><Card/></div>
+        <div><Card/></div>
+        <div><Card/></div>
+        <div><Card/></div>
+        <div><Card/></div>
       </Slider>
     </div>
     );
