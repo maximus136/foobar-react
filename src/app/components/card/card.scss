@@ -1,0 +1,38 @@
+.card-container{
+    width: 360px;
+    height: 370px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2);
+     .card-image{
+         padding-top: 45px;
+         padding-bottom: 50px;
+         padding-left: 130px;
+     }
+     .card-title{
+        width: 278px;
+        height: 29px;
+        font-family: Montserrat;
+        font-size: 24px;
+        letter-spacing: 3px;
+        text-align: left;
+        color: #757575;
+        margin-left: 40px;
+    }
+    .card-description{
+        width: 293px;
+        height: 88px;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.57;
+        letter-spacing: 1.8px;
+        text-align: left;
+        color: #757575;
+        margin-left: 40px;
+    }
+}
+
+
+
+
