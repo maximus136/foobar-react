@@ -6,7 +6,7 @@ const Hero = (props) => {
     return (
         <div className="hero-container text-center">
             <h3 className="title">{props.title}</h3>
-            <span className="subTitle"><h3>{props.subTitle}</h3></span>
+            <span className="subTitle">{props.subTitle}</span>
             <Button classNames="btn-filled upperCase" value={props.buttonValue}/>
         </div>
     )
