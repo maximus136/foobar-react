@@ -4,14 +4,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import TestUtils from 'react-addons-test-utils';
 import { mount } from 'enzyme';
-
-
-import {Footer} from './footer';
+import {Footer} from '../footer';
 
 describe('Footer', () => {
+  let footer;
+
+  beforeEach(() => {
+    footer = mount(<Footer/>);
+    console.log(footer);
+  });
   it('should be a footer', () => {
-    const footer = TestUtils.renderIntoDocument(<Footer/>);
-    const footerNode = ReactDOM.findDOMNode(footer);
-    expect(footerNode.tagName).toEqual('FOOTER');
+    expect(footer.find('footer').length > 0).toEqual(true);
   });
 });
